@@ -1,0 +1,54 @@
+{
+    "_from": "http://pkg.allbin.se/es6-google-maps-0.8.10.tar.gz",
+    "_id": "es6-google-maps@0.8.10",
+    "_inBundle": false,
+    "_integrity": "sha512-I/cdpzuW0M2DQlfJ7bFAjy0HPo1fAfCoZKUP01HrvMzejLc71kl9hgSSyL3gO0KyYJHx4D1Dyay330gKUuDZrA==",
+    "_location": "/es6-google-maps",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "remote",
+      "raw": "es6-google-maps@http://pkg.allbin.se/es6-google-maps-0.8.10.tar.gz",
+      "name": "es6-google-maps",
+      "escapedName": "es6-google-maps",
+      "rawSpec": "http://pkg.allbin.se/es6-google-maps-0.8.10.tar.gz",
+      "saveSpec": "http://pkg.allbin.se/es6-google-maps-0.8.10.tar.gz",
+      "fetchSpec": "http://pkg.allbin.se/es6-google-maps-0.8.10.tar.gz"
+    },
+    "_requiredBy": [
+      "/"
+    ],
+    "_resolved": "http://pkg.allbin.se/es6-google-maps-0.8.10.tar.gz",
+    "_spec": "es6-google-maps@http://pkg.allbin.se/es6-google-maps-0.8.10.tar.gz",
+    "_where": "D:\\repos\\iwa-ui",
+    "author": {
+      "name": "Mattias Nilsson",
+      "email": "mattias@allbinary.se"
+    },
+    "bundleDependencies": false,
+    "deprecated": false,
+    "description": "A wrapper around loading and creation of Google Maps instances in a single page DOM.",
+    "devDependencies": {
+      "babel-preset-es2015": "^6.6.0",
+      "babelify": "^7.3.0",
+      "chai": "^3.5.0",
+      "grunt": "^1.0.1",
+      "grunt-browserify": "^5.0.0",
+      "grunt-bump": "^0.8.0",
+      "grunt-contrib-clean": "^1.0.0",
+      "grunt-contrib-compress": "^1.2.0",
+      "grunt-contrib-jshint": "^1.0.0",
+      "grunt-contrib-uglify": "^1.0.1",
+      "ink-docstrap": "^1.2.1",
+      "jsdoc": "^3.4.0",
+      "load-grunt-tasks": "^3.5.0",
+      "node-js-marker-clusterer": "^1.0.0"
+    },
+    "license": "UNLICENSED",
+    "main": "index.min.js",
+    "name": "es6-google-maps",
+    "scripts": {
+      "test": "cd test; babel-node --presets es2015 MapLayerTest.js"
+    },
+    "version": "0.8.10"
+  }
+  
